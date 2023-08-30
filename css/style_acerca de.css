@@ -1,0 +1,80 @@
+body{
+	background-color: #c9b48f;
+	margin: 0px;
+}
+@font-face{
+	font-family: HV Simplicite;
+	src: url("../tipografias/HV Simplicite Bold.otf");
+}
+@font-face{
+	font-family: Lemon Melon;
+	src: url("../tipografias/LemonMelon.ttf");
+}
+@font-face{
+	font-family: Geomanist;
+	src: url("../tipografias/Geomanist.otf");
+}
+@font-face{
+	font-family: Omega Sans;
+	src: url("../tipografias/OmegaSansRegular.ttf");
+}
+@font-face{
+	font-family: Sprint Sans;
+	src: url("../tipografias/SprintSansRegular.otf");
+}
+nav{
+	width: 100%;
+	position: fixed;
+	background-color: #201f1f;
+	padding: 08px 0px;
+	font-family: HV Simplicite;
+}
+ul{
+	text-align: right;
+	padding-right: 30px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 0px;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding-right: 30px;
+	margin-left: 3px;
+}
+a:hover{
+	color: yellow;
+}
+h2{
+	font-family: Lemon Melon;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+}
+h2::before{
+	content:"";
+	position: absolute;
+	width: 286px;
+	height: 4px;
+	background-color: saddlebrown;
+	top: 14.5em;
+}
+div.imagen{
+	display: flex;
+	margin-left: 40px; 
+	margin-top: 100px;
+}
+.columna{
+	font-family: Sprint Sans;
+	font-size: 19px;
+	margin-right: 80px;
+	padding-left: 60px;
+	text-align: justify;
+	width: 700px;
+}
+p{
+	padding-bottom: 10px;
+}
